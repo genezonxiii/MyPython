@@ -20,6 +20,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying'
+                sh 'whoami'
+                sh 'cd /home/jenkins/workspace/melvin0119-1@2/'
+                sh 'sudo chmod +x'
                 sh '/home/jenkins/workspace/melvin0119-1@2/runService.sh'
             }
         }
