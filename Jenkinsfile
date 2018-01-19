@@ -20,6 +20,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying'
+                sh 'cd /home/jenkins/workspace/melvin0119-1@2'
+                sh 'nohup python MyServer.py 8091 &'
             }
         }
     }
