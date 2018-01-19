@@ -20,7 +20,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying'
-                sh 'runService.sh'
+                sh '/home/jenkins/workspace/melvin0119-1@2/runService.sh'
             }
         }
     }
