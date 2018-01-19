@@ -15,7 +15,7 @@ class SFSample():
         return """Hello World! (POST)"""
 
     def GET(self, data):
-        return """Hello World! (GET) new"""
+        return """Hello World! (GET)"""
 
 
 if __name__ == "__main__":
