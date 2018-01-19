@@ -23,7 +23,7 @@ pipeline {
                 sh 'whoami'
                 sh 'cd /home/jenkins/workspace/melvin0119-1@2/'
                 sh 'sudo chmod +x runService.sh'
-                sh 'runService.sh'
+                sh '/home/jenkins/workspace/melvin0119-1@2/runService.sh'
             }
         }
     }
