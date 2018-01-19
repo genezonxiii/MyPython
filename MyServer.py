@@ -11,10 +11,10 @@ app = web.application(urls, globals())
 class SFSample():
 
     def POST(self, data):
-        return """Hello World!(POST)"""
+        return """Hello World! (POST)"""
 
     def GET(self, data):
-        return """Hello World!(GET)"""
+        return """Hello World! (GET)"""
 
 
 if __name__ == "__main__":
