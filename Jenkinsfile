@@ -1,6 +1,11 @@
 #!/usr/bin/env groovy
 pipeline {
-    agent any
+    agent {
+        node {
+            label 'testingEnv1'
+            customWorkspace '/home/jenkins/workspace'
+        }
+    }
     stages {
         stage('Build') {
             steps {
