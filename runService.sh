@@ -1,2 +1,2 @@
-#! /bin/sh
+#! bin/sh
 python MyServer.py 8091 &
