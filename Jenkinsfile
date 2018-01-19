@@ -24,7 +24,7 @@ pipeline {
                 sh 'cd /home/jenkins/workspace/melvin0119-1@2/'
                 sh 'pwd'
                 sh 'sudo chmod +x runService.sh'
-                sh '/home/jenkins/workspace/melvin0119-1@2/runService.sh'
+                sh './runService.sh'
             }
         }
     }
