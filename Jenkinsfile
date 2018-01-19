@@ -3,7 +3,7 @@ pipeline {
     agent {
         node {
             label 'testingEnv1'
-            customWorkspace '/home/jenkins/workspace'
+            customWorkspace '/home/jenkins/workspace/melvin0119-1'
         }
     }
     stages {
