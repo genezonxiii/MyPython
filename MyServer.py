@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # __author__ = '10507001'
+#! /usr/bin/env python
 
 import web
 
