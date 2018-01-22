@@ -24,7 +24,7 @@ pipeline {
                 sh 'cd /home/jenkins/workspace/melvin0119-1@2/'
                 sh 'pwd'
                 sh 'sudo chmod +x runService.sh'
-                sh 'bash -x runService.sh /home/mysqlmove/file.log 2>&1'
+                sh './runService.sh'
             }
         }
     }
