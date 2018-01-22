@@ -5,6 +5,3 @@ echo 'end'
 
 echo 'part2'
 python MyTest.py
-
-echo 'part3'
-python MyScript.py
